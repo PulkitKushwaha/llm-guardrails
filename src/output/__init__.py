@@ -8,5 +8,23 @@ from src.output.pii_redactor import (
     ConditionalRedactor,
     RedactionResult
 )
+from src.output.toxicity_filter import (
+    KeywordToxicityFilter,
+    MLToxicityFilter,
+    CompositeToxicityFilter,
+    ToxicityResult,
+    ToxicitySeverity,
+    ToxicityCategory
+)
  
-__all__ = ["OutputPIIRedactor", "ConditionalRedactor", "RedactionResult"]
+__all__ = [
+    "OutputPIIRedactor",
+    "ConditionalRedactor",
+    "RedactionResult",
+    "KeywordToxicityFilter",
+    "MLToxicityFilter",
+    "CompositeToxicityFilter",
+    "ToxicityResult",
+    "ToxicitySeverity",
+    "ToxicityCategory"
+]
